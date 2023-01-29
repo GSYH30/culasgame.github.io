@@ -1,0 +1,1122 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container{
+    position: relative;
+    top: 150px;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 450px;
+    height: 300px;
+    background: black; 
+}
+
+.container1{
+    position: relative;
+    top: 10px;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 1340px;
+    height: 100px;
+    background: black; 
+}
+
+.container2{
+    position: relative;
+    top: 15px;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 310px;
+    height: 510px;
+    background: black; 
+}
+
+.container3{
+    position: relative;
+    top: 15px;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 1000px;
+    height: 510px;
+    background: black; 
+}
+
+
+.rgb:before,
+.rgb:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+    background-size: 500%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: animate 20s linear infinite;
+}
+
+.rgb:after
+{
+    filter: blur(200px);
+}
+
+@keyframes animate
+{
+    0%
+    {
+        background-position: 0 0;
+    }
+    50%
+    {
+        background-position: 100% 0;
+    }
+    100%
+    {
+        background-position: 0 0;
+    }
+}
+
+.container_about{
+    position: relative;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 750px;
+    height: 1075px ;
+    background: black; 
+}
+
+.container_content_1{
+    position: relative;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 750px;
+    height: 770px;
+    background: black; 
+}
+
+.name_website {
+    position: relative;
+    bottom: 25px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    font-size: 10px;
+}
+
+.garis_atas {
+    font-size: 15px;
+    position: relative;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    bottom: 10px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.garis_bawah {
+    font-size: 15px;
+    position: relative;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    bottom: 37px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.garis_bawah_nav {
+    font-size: 15px;
+    position: relative;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    bottom: 8px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.nav_posisition {
+    position: relative;
+    text-align: center;
+    bottom: 130px;
+}
+
+nav a {
+    position: relative;
+    text-align: center;
+	font-size: 10px;
+	color: white;
+    top: 1px;
+	text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    color: darkgreen;
+}
+
+.fix_decoration_nav {
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+nav a:hover{
+    color: #0000ff;
+}
+
+nav span {
+    color: white;
+    position: relative;
+    bottom: 1px;
+    align-items: center;
+    justify-items: center;
+    margin: 10px;
+}
+
+.nama_website span {
+    position: relative;
+    left: 10px;
+}
+
+.garis_tepi_1 {
+    position: relative;
+    right: 135px;
+    top: 1px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.garis_tepi_2 {
+    position: relative;
+    left: 135px;
+    top: 1px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.garis_tepi_3 {
+    position: relative;
+    left: 9px;
+    bottom: 51px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 10px;
+}
+
+.garis_tepi_4 {
+    position: relative;
+    left: 9px;
+    bottom: 57px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 10px;
+}
+
+.garis_tepi_5 {
+    text-align: right;
+    position: relative;
+    right: 9px;
+    bottom: 91px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 10px;
+}
+
+.garis_tepi_6 {
+    text-align: right;
+    position: relative;
+    right: 9px;
+    bottom: 97px;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 10px;
+}
+
+.judul_about_1 a {
+    position: relative;
+    text-align: center;
+	font-size: 15px;
+	color: white;
+    top: 1px;
+	text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    color: darkgreen;
+}
+
+.judul_about_1 {
+    text-align: center;
+}
+
+.judul_about_2 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 12px;
+}
+
+.deskripsi_content_1 a:hover {
+    color: #0000ff;
+}
+
+.deskripsi_content_1 span{
+    color: white;
+}
+
+.content_1 a:hover {
+    color: #0000ff;
+}
+
+.content_2 a:hover {
+    color: #0000ff;
+}
+
+.judul_about_1 a:hover{
+    color: #0000ff;
+}
+
+.judul_content_1 a {
+    position: relative;
+    text-align: center;
+	font-size: 10px;
+	color: white;
+    top: 1px;
+	text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    color: darkgreen;
+}
+
+.judul_content_1 :hover {
+    color: #0000ff;
+}
+
+.judul_content_1 a:hover {
+    color: #0000ff;
+}
+
+.judul_content_1 {
+    text-align: center;
+}
+
+.last_update_content_1 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 8px;
+}
+
+.deskripsi_about {
+    padding: 0px;
+    position: relative;
+    bottom: 130px;
+    font-size: 20px;
+    margin: 150px;
+    padding: 10px;
+    color: gray;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'VT323', monospace;
+}
+
+.button_about {
+  position: relative;
+  color: darkgreen;
+  left: 147px;
+  top: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.button_about:hover {
+    color: #0000ff;
+}
+
+.content_1 {
+    margin-left: 10px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+
+.content_1 a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.content_2 {
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    margin-left: 10px;
+    text-align: left;
+    color: white;
+}
+
+.content_2 a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.titik_penghubung {
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.container_content_2_menu{
+    position: relative;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 750px;
+    height: 100vmax;
+    background: black; 
+}
+
+.container_content_2{
+    position: relative;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 750px;
+    height: 1300px;
+    background: black; 
+}
+
+.deskripsi_content_1 {
+    padding: 0px;
+    position: relative;
+    bottom: 130px;
+    font-size: 20px;
+    margin: 150px;
+    padding: 10px;
+    color: gray;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'VT323', monospace;
+}
+
+.deskripsi_content_1 a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.judul_content_2 a {
+    position: relative;
+    text-align: center;
+	font-size: 10px;
+	color: white;
+    top: 1px;
+	text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    color: darkgreen;
+}
+
+.judul_content_2 a:hover {
+    color: #0000ff;
+}
+
+.judul_content_2 {
+    text-align: center;
+}
+
+
+.button_back_content_1 {
+  position: relative;
+  color: darkgreen;
+  left: 147px;
+  top: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button_back_content_1:hover {
+    color: #0000ff;
+}
+
+.deskripsi_content_2 {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 128px;
+    font-size: 20px;
+    margin: 150px;
+    padding: 10px;
+    color: gray;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'VT323', monospace;
+}
+
+.deskripsi_content_2 a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.icon_cpu {
+    position: relative;
+    height: 25px;
+    width: 25px;
+    bottom: 633px;
+    left: 121px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+.icon_ram {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 592px;
+    left: 90px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.icon_vga {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 555px;
+    left: 55px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.icon_ssd {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 515px;
+    left: 20px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.icon_psu {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 475px;
+    right: 15px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.icon_hdd {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 435px;
+    right: 50px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.icon_casing {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 395px;
+    right: 80px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.icon_cpu_cooler {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 353px;
+    right: 115px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.icon_motherboard {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    bottom: 312px;
+    right: 149px;
+    user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -khtml-user-select:none;
+    -webkit-user-select:none
+}
+
+.button_back_content_2 {
+  position: relative;
+  color: darkgreen;
+  bottom: 280px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button_back_content_2:hover {
+    color: #0000ff;
+}
+
+.last_update_content_2 {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 8px;
+}
+
+.icon_pc {
+    position: relative;
+    height: 100px;
+    left: 230px;
+    top: 40px;
+}
+
+.deskripsi_content_2_hal1 {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 77px;
+    bottom: 90px;
+    font-size: 30px;
+    margin: 150px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'VT323', monospace;
+}
+
+.icon_rakit_pc {
+    position: relative;
+    height: 25px;
+    left: 230px;
+    bottom: 227px;
+}
+
+.link_part {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 415px;
+    right: 42px;
+    font-size: 20px;
+    margin: 150px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'VT323', monospace;
+}
+
+.link_part a{
+    color: gray;
+}
+
+.icon_question {
+    position: relative;
+    height: 25px;
+    left: 230px;
+    bottom: 557px;
+}
+
+.link_question {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 745px;
+    left: 43px;
+    font-size: 20px;
+    margin: 150px;
+    padding: 10px;
+    letter-spacing: 1px;
+    text-align: left;
+    font-family: 'VT323', monospace;
+}
+
+.link_question a{
+    color: gray;
+}
+
+.button_back_content_2_menu {
+    position: relative;
+    color: darkgreen;
+    bottom: 830px;
+    left: 330px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+  }
+  
+  .button_back_content_2_menu:hover {
+      color: #0000ff;
+  }
+
+  .nama_komponen {
+    position: relative;
+    left: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: 'VT323', monospace;
+  }
+
+.isi_alasan {
+    position: relative;
+    left: 20px;
+    text-align: left;
+    padding-right: 50px;
+    bottom: 20px;
+    color: gray;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+} 
+
+.isi_alasan {
+    position: relative;
+    left: 20px;
+    text-align: left;
+    padding-right: 50px;
+    bottom: 20px;
+    color: gray;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+
+.container_content_2_alasan_komponen_pc{
+    position: relative;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 750px;
+    height: 1400px;
+    background: black; 
+}
+
+.button_back_content_2_alasan_spec_pc {
+    position: relative;
+    color: darkgreen;
+    top: 5px;
+    left: 330px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'VT323', monospace;
+}
+
+.button_back_content_2_alasan_spec_pc:hover {
+      color: #0000ff;
+  }
+
+.footer {
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    color: white;
+    font-family: 'VT323', monospace;
+}
+
+.icon {
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    bottom: 40px;
+    position: relative;
+}
+
+.icon a {
+    color: darkgreen;
+}
+
+.icon a:hover {
+    background-color: blue;
+}
+
+.icon span {
+    color: white;
+}
+
+.box_login {
+    border-style: groove;
+    background: linear-gradient(-90deg,#222f3e ,#576574 );
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 140px;
+    left: 35%;
+    border-radius: 8px;
+  }
+  
+  .from_login {
+    padding: 40px 50px;
+  }
+  
+  .from_login h2 {
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Press Start 2P', cursive;
+    margin: 10px auto;
+    font-size: 20px;
+    bottom: 25px;
+  }
+
+  .input_box input {
+    height: 20px;
+  }
+  
+  .input_box span {
+    color: white;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+  }
+  
+  .input_box input {
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .login_mid {
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
+  
+  .login_mid input {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    border-radius: 10px;
+    height: 30px;
+    width: 100px;
+  }
+  
+  .login_account {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    margin: 30px;
+    color: darkgreen;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+  }
+  
+  .login_account a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .login_account a {
+    color: rgb(0, 153, 255);
+  }
+
+  .from_register {
+    padding: 40px 50px;
+  }
+  
+  .from_register h2 {
+    position: relative;
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Press Start 2P', cursive;
+    margin: 10px auto;
+    font-size: 19px;
+    bottom: 25px;
+  }
+  
+  .box_register {
+    border-style: groove;
+    background: linear-gradient(-90deg,#222f3e ,#576574 );
+    position: relative;
+    width: 400px;
+    height: 400px;
+    top: 140px;
+    left: 35%;
+    border-radius: 8px;
+  }
+  
+  .register_mid {
+    position: relative;
+    top: 40px;
+    text-align: center;
+  }
+  
+  .register_mid input {
+    position: relative;
+    height: 30px;
+    width: 100px;
+  }
+  
+  .input_box_register input {
+    height: 20px;
+    width: 328px;
+  }
+  
+  .input_box_register span {
+    color: white;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+  }
+  
+  .input_box_register {
+    position: relative;
+    bottom: 35px;
+    width: 100px;
+  }
+
+  .input_box_register_password input {
+    height: 20px;
+    width: 328px;
+  }
+  
+  .input_box_register_password span {
+    color: white;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+  }
+  .input_box_register_password {
+    position: relative;
+    bottom: 25px;
+    width: 100px;
+  }
+  
+  .input_box_register_hp input {
+    position: relative;
+    left: 27px;
+    height: 20px;
+    width: 130px;
+  }
+  
+  .input_box_register_hp span {
+    color: white;
+    position: relative;
+    left: 27px;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+  }
+  
+  .input_box_register_hp {
+    position: relative;
+    width: 100px;
+    bottom: 40px;
+    left: 170px;
+  }
+  
+  .input_box_register_username input {
+    height: 20px;
+    width: 180px;
+  }
+  
+  .input_box_register_username span {
+    color: white;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+  }
+  
+  .input_box_register_username {
+    position: relative;
+    width: 100px;
+  }
+  
+  .register_mid_register {
+    position: relative;
+    top: 55px;
+    text-align: center;
+  }
+  
+  .register_mid_register input {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    position: relative;
+    bottom: 45px;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+  }
+    
+  .create_account {
+    position: relative;
+    text-align: center;
+    margin: 30px;
+    color: darkgreen;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+    top: 42px;
+  }
+  
+  .create_account a {
+    font-size: 20px;
+    text-decoration: none;
+  }
+  
+  .create_account a {
+    color: rgb(0, 153, 255);
+  }
+
+.create_account_successfully h1 {
+    font-family: 'VT323', monospace;
+    color: white;
+}
+
+.posisition_footer {
+    position: relative;
+    bottom: 16px;
+}
+
+.content_3 {
+    margin-left: 10px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+    font-family: 'VT323', monospace;
+}
+
+.content_3 a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.container_content_3 {
+    position: relative;
+    border: 1px white solid;
+    margin: 0 auto;
+    width: 650px;
+    height: 694px;
+    background: black; 
+}
+
+.judul_content_3 a {
+    position: relative;
+    text-align: center;
+	font-size: 10px;
+	color: white;
+    top: 1px;
+	text-decoration: none;
+    font-family: 'Press Start 2P', cursive;
+    color: darkgreen;
+}
+
+.judul_content_3 :hover {
+    color: #0000ff;
+}
+
+.judul_content_3 {
+    text-align: center;
+}
+
+.text_berjalan {
+   position: relative;
+   top: 5px;
+   font-size: 25px;
+   color: white;
+   font-family: 'Press Start 2P', cursive;
+}
+
+.nav_container_frame2 a{
+    color: darkgreen;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'VT323', monospace;
+}
+
+.nav_container_frame2 {
+    position: relative;
+    right: 15px;
+    top: 100px;
+    text-align: center;
+    
+}
+
+.logo {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 30px;
+}
+
+.welcome p {
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.aboutme_game_project {
+    position: relative;
+    top: 150px;
+    text-align:  center;
+    font-family: 'Press Start 2P', cursive;
+    color: darkgreen;
+}
